@@ -1,0 +1,51 @@
+body {
+  color: rgb(65,75,86);
+  font-family: arial, helvetica, sans-serif;
+  margin: 0px;
+}
+
+div.bg-image{
+  background-image: url(https://i.imgur.com/D62HYlK.jpg) center;
+  background-position: center;
+}
+
+div.contrast {
+  background-color: rgb(112,112,119);
+  color: rgb(227,227,232);
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
+
+.small-size{
+  font-size: 20px;
+}
