@@ -4,9 +4,8 @@ body {
   margin: 0px;
 }
 
-div.bg-image{
-  background-image: url(https://i.imgur.com/D62HYlK.jpg) center;
-  background-position: center;
+div.header{
+    background-image: url(bham.jpg);
 }
 
 div.contrast {
