@@ -4,8 +4,14 @@ body {
   margin: 0px;
 }
 
-div.header{
-    background-image: url(bham.jpg);
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image {
+  max-width: 100%;
+  display: block;
 }
 
 div.contrast {
@@ -18,7 +24,7 @@ div.contrast {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 7em;
 }
 
 h2 {
@@ -33,6 +39,7 @@ ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding: 0px 20px 0px
 }
 
 li {
@@ -46,5 +53,5 @@ li:hover {
 }
 
 .small-size{
-  font-size: 20px;
+  font-size: 15px;
 }
